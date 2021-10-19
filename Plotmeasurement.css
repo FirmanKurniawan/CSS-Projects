@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', cursive;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    background: url("Mathematics.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: x-large;
+    padding: 0.25rem;
+    margin: 0;
+}
+
+.feet, .marla, .kanal, .acre  {
+    color: rgba(25, 135, 84);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.50rem;
+}
+
+#warn {
+    background: none;
+    border-radius: 0.30rem;
+}
+
+#warn-box {
+    margin: 0;
+}
+
+#warning {
+    margin: 0;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+}
+
+#ans1, #ans3{
+    text-align: center;
+    font-weight: 500;
+    font-size: x-large;
+    margin-bottom: 1.25rem;
+}
+
+#ans2, #ans4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+#submit, #reset {
+    font-weight: 500;
+}
+
+#footer h3 {
+    margin: 0;
+    font-size: 0.90rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
