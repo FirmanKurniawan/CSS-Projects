@@ -1,0 +1,230 @@
+/*-------------------------------------
+TABLE OF CONTENTS:
+-------------------------------------*/
+
+/*-------------------------------------
++ Import Font
++ General Layout
++ Typography
++ Page Title
++ Helper Classes
++ Preloader
++ UI - buttons
++ UI - badges & Waves
++ UI - Colors
++ UI - Toasts
++ UI - Modal
++ UI - Grid
++ UI - Icons
++ Form Select
++ Dropdowns
++ Mediabox
++ Date picker
++ Time picker
++ Feature Discovery
++ Carousel
++ Carousel Home Screen
++ Slider
++ Testimonials
++ Floating action buttons
++ Tooltip
++ Highlight
++ Breadcrumbs
++ Buttons
++ Badges
++ Blockquote
++ Pagination
++ Spineers / preloaders
++ Carousel Basic
++ Accordion
++ Waves
++ Modal
++ Page Top Bar
++ Page Top Bar - Left Align
++ Page Top Bar - App Based
++ Page Top Bar - Right Aligned
++ Page Top Bar - Dark Style
++ Page Top Bar - Colored Style
++ Navigation Menu
++ Navigation Menu - Centered 
++ Navigation Menu - Dark Style
++ Navigation Menu - Colored Style
++ Sub pages - Inner Menu Links
++ Footer
++ Footer - Light Style
++ Footer - Colored Style
++ Footer - Minimal
++ Navigation User Menu
++ Drop Down
++ Collection
++ Progress Bars
++ Back to top button
++ Cards
++ Tabs
++ Icon Boxes
++ Chips
++ Form Range Sliders
++ Switches
++ Form Elements
++ Checkboxes
++ Radio Buttons
++ Select
++ Settings
++ Parallax
++ Masonry
++ Cards Wrap
++ Chat
++ Calendar
++ Events
++ Mailbox / Messages
++ Profile Page
++ Timeline
++ Portfolio
++ Blogs
++ Blogs - Aligned
++ Blogs - Small Left Style
++ Blogs - Medium Left Style
++ Blogs - Small Right Style
++ Blogs - Medium Right Style
++ Blogs - Small Alternate Style
++ Blogs - Medium Alternate Style
++ Blogs - Non Image
++ Login Page
++ Welcome page
++ Error Pages 
++ Search Page 
++ Pricing Tables
++ Invoice
++ Notifications
++ Edit Profile
++ App Settings
++ Clients
++ Fixed Footer Menu
++ Fixed Footer Menu - Dark Style
++ Fixed Footer Menu - Colored Style
++ Perfect Scrollbar
++ Table
++ Contact us page
++ Fancybox
++ Image Filter Overlay
++ Site - Dark Mode
++ Site - Dark Mode - Calendar
++ Site - Dark Mode - Events
++ Site - Dark Mode - Collections
++ Site - Dark Mode - Chat
++ Site - Dark Mode - Edit Profile
++ Site - Dark Mode - UI
++ Site - Dark Mode - Cards
++ Site - Dark Mode - Table
++ Site - Dark Mode - Badge and collapsible
++ Site - Dark Mode - Dropdown
++ Site - Dark Mode - Tabs
++ Site - Dark Mode - Iconboxes
++ Site - Dark Mode - Pagination
++ Site - Dark Mode - Modal & Waves
++ Site - Dark Mode - Forms
++ Site - Dark Mode - Datepicker and Timepicker
++ Site - Dark Mode - Checkbox & Radio
++ Site - Dark Mode - Chips
++ Site - Dark Mode - Range & Select
++ Site - Dark Mode - Switches
++ Site - Dark Mode - Inputs
++ Site - Dark Mode - Timeline
++ Site - Dark Mode - Pricing Tables & Search
++ Site - Dark Mode - Blogs
++ Site - Dark Mode - Client
++ Site - Dark Mode - Calendar
++ Site - Dark Mode - Portfolio
++ Site - Dark Mode - UI Icons
+--------------------------------------*/
+
+/*-------------------------------------
+  Variables
+  + Font: Raleway
+  + Primary Color: var(--primary-color) / rgba(var(--primary-rgb), 1)
+  + Accent Color: var(--accent-color) / rgba(var(--accent-rgb), 1)
+  + Text Color: #455A64
+  + Background Color: #f5f5f5
+  + Dark Mode Background Color: #263238 / #37474F / #455A64
+  + Dark Mode Text Color: #f5f5f5 / #CFD8DC
+-------------------------------------*/
+
+/*-------------------------------------
+  Import Font
+-------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+@import url("variables.css");
+
+@import url("_general.css");
+@import url("_preloader.css");
+@import url("_ui.css");
+@import url("_datepicker.css");
+@import url("_timepicker.css");
+@import url("_carousel.css");
+@import url("_carousel-home-screen.css");
+@import url("_slider.css");
+@import url("_testimonials.css");
+@import url("_floating-action.css");
+@import url("_tooltips.css");
+@import url("_buttons.css");
+@import url("_badges.css");
+@import url("_blockquotes.css");
+@import url("_pagination.css");
+@import url("_spinners.css");
+@import url("_accordion.css");
+@import url("_waves.css");
+@import url("_modal.css");
+@import url("_topbar.css");
+@import url("_navigation.css");
+@import url("_navigation-centered.css");
+@import url("_navigation-dark.css");
+@import url("_navigation-colored.css");
+@import url("_subpages.css");
+@import url("_footer.css");
+@import url("_footer-light.css");
+@import url("_footer-colored.css");
+@import url("_footer-minimal.css");
+@import url("_dropdown.css");
+@import url("_collection.css");
+@import url("_progress.css");
+@import url("_backtotop.css");
+@import url("_cards.css");
+@import url("_tabs.css");
+@import url("_iconboxes.css");
+@import url("_chips.css");
+@import url("_form-range-sliders.css");
+@import url("_switches.css");
+@import url("_form-elements.css");
+@import url("_settings.css");
+@import url("_parallax.css");
+@import url("_chat.css");
+@import url("_calendar.css");
+@import url("_events.css");
+@import url("_mailbox.css");
+@import url("_profile.css");
+@import url("_timeline.css");
+@import url("_portfolio.css");
+@import url("_blogs.css");
+@import url("_products.css");
+@import url("_login.css");
+@import url("_welcome.css");
+@import url("_error.css");
+@import url("_search.css");
+@import url("_pricing.css");
+@import url("_invoice.css");
+@import url("_notifications.css");
+@import url("_profile-edit.css");
+@import url("_app-settings.css");
+@import url("_clients.css");
+@import url("_fixed-footer-menu.css");
+@import url("_perfect-scrollbar.css");
+@import url("_tables.css");
+@import url("_contactus.css");
+@import url("_fancybox.css");
+@import url("_image-filter.css");
+@import url("_shadow.css");
+@import url("_team.css");
+@import url("_charts.css");
+@import url("_activity.css");
+@import url("_site-darkmode.css");
