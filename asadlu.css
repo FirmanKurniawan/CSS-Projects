@@ -1,0 +1,985 @@
+/* On "Dashboard" > "At a Glance" section all icons are overwritten by wordpress core.
+   This can be remove when https://core.trac.wordpress.org/ticket/27414 is solved */
+
+/* Admin Menu Icons */
+
+#dashboard_right_now li a.dashicons-menu:before {
+    content: "\f333";
+}
+
+#dashboard_right_now li a.dashicons-admin-site:before {
+    content: "\f319";
+}
+
+#dashboard_right_now li a.dashicons-dashboard:before {
+    content: "\f226";
+}
+
+#dashboard_right_now li a.dashicons-admin-media:before {
+    content: "\f104";
+}
+
+#dashboard_right_now li a.dashicons-admin-page:before {
+    content: "\f105";
+}
+
+#dashboard_right_now li a.dashicons-admin-comments:before {
+    content: "\f101";
+}
+
+#dashboard_right_now li a.dashicons-admin-appearance:before {
+    content: "\f100";
+}
+
+#dashboard_right_now li a.dashicons-admin-plugins:before {
+    content: "\f106";
+}
+
+#dashboard_right_now li a.dashicons-admin-users:before {
+    content: "\f110";
+}
+
+#dashboard_right_now li a.dashicons-admin-tools:before {
+    content: "\f107";
+}
+
+#dashboard_right_now li a.dashicons-admin-settings:before {
+    content: "\f108";
+}
+
+#dashboard_right_now li a.dashicons-admin-network:before {
+    content: "\f112";
+}
+
+#dashboard_right_now li a.dashicons-admin-generic:before {
+    content: "\f111";
+}
+
+#dashboard_right_now li a.dashicons-admin-home:before {
+    content: "\f102";
+}
+
+#dashboard_right_now li a.dashicons-admin-collapse:before {
+    content: "\f148";
+}
+
+#dashboard_right_now li a.dashicons-filter:before {
+    content: "\f536";
+}
+
+#dashboard_right_now li a.dashicons-admin-customizer:before {
+    content: "\f540";
+}
+
+#dashboard_right_now li a.dashicons-admin-multisite:before {
+    content: "\f541";
+}
+
+
+/* Both Admin Menu and Post Formats */
+
+#dashboard_right_now li a.dashicons-admin-links:before,
+#dashboard_right_now li a.dashicons-format-links:before {
+    content: "\f103";
+}
+
+#dashboard_right_now li a.dashicons-admin-post:before,
+#dashboard_right_now li a.dashicons-format-standard:before {
+    content: "\f109";
+}
+
+
+/* Post Format Icons */
+
+#dashboard_right_now li a.dashicons-format-image:before {
+    content: "\f128";
+}
+
+#dashboard_right_now li a.dashicons-format-gallery:before {
+    content: "\f161";
+}
+
+#dashboard_right_now li a.dashicons-format-audio:before {
+    content: "\f127";
+}
+
+#dashboard_right_now li a.dashicons-format-video:before {
+    content: "\f126";
+}
+
+#dashboard_right_now li a.dashicons-format-chat:before {
+    content: "\f125";
+}
+
+#dashboard_right_now li a.dashicons-format-status:before {
+    content: "\f130";
+}
+
+#dashboard_right_now li a.dashicons-format-aside:before {
+    content: "\f123";
+}
+
+#dashboard_right_now li a.dashicons-format-quote:before {
+    content: "\f122";
+}
+
+
+/* Welcome Screen Icons */
+
+#dashboard_right_now li a.dashicons-welcome-write-blog:before,
+#dashboard_right_now li a.dashicons-welcome-edit-page:before {
+    content: "\f119";
+}
+
+#dashboard_right_now li a.dashicons-welcome-add-page:before {
+    content: "\f133";
+}
+
+#dashboard_right_now li a.dashicons-welcome-view-site:before {
+    content: "\f115";
+}
+
+#dashboard_right_now li a.dashicons-welcome-widgets-menus:before {
+    content: "\f116";
+}
+
+#dashboard_right_now li a.dashicons-welcome-comments:before {
+    content: "\f117";
+}
+
+#dashboard_right_now li a.dashicons-welcome-learn-more:before {
+    content: "\f118";
+}
+
+
+/* Image Editing Icons */
+
+#dashboard_right_now li a.dashicons-image-crop:before {
+    content: "\f165";
+}
+
+#dashboard_right_now li a.dashicons-image-rotate:before {
+    content: "\f531";
+}
+
+
+#dashboard_right_now li a.dashicons-image-rotate-left:before {
+    content: "\f166";
+}
+
+#dashboard_right_now li a.dashicons-image-rotate-right:before {
+    content: "\f167";
+}
+
+#dashboard_right_now li a.dashicons-image-flip-vertical:before {
+    content: "\f168";
+}
+
+#dashboard_right_now li a.dashicons-image-flip-horizontal:before {
+    content: "\f169";
+}
+
+#dashboard_right_now li a.dashicons-image-filter:before {
+    content: "\f533";
+}
+
+
+/* Both Image Editing and TinyMCE */
+
+#dashboard_right_now li a.dashicons-undo:before {
+    content: "\f171";
+}
+
+#dashboard_right_now li a.dashicons-redo:before {
+    content: "\f172";
+}
+
+/* TinyMCE Icons */
+
+#dashboard_right_now li a.dashicons-editor-bold:before {
+    content: "\f200";
+}
+
+#dashboard_right_now li a.dashicons-editor-italic:before {
+    content: "\f201";
+}
+
+#dashboard_right_now li a.dashicons-editor-ul:before {
+    content: "\f203";
+}
+
+#dashboard_right_now li a.dashicons-editor-ol:before {
+    content: "\f204";
+}
+
+#dashboard_right_now li a.dashicons-editor-quote:before {
+    content: "\f205";
+}
+
+#dashboard_right_now li a.dashicons-editor-alignleft:before {
+    content: "\f206";
+}
+
+#dashboard_right_now li a.dashicons-editor-aligncenter:before {
+    content: "\f207";
+}
+
+#dashboard_right_now li a.dashicons-editor-alignright:before {
+    content: "\f208";
+}
+
+#dashboard_right_now li a.dashicons-editor-insertmore:before {
+    content: "\f209";
+}
+
+#dashboard_right_now li a.dashicons-editor-spellcheck:before {
+    content: "\f210";
+}
+
+#dashboard_right_now li a.dashicons-editor-distractionfree:before,
+#dashboard_right_now li a.dashicons-editor-expand:before {
+    content: "\f211";
+}
+
+#dashboard_right_now li a.dashicons-editor-contract:before {
+    content: "\f506";
+}
+
+#dashboard_right_now li a.dashicons-editor-kitchensink:before {
+    content: "\f212";
+}
+
+#dashboard_right_now li a.dashicons-editor-underline:before {
+    content: "\f213";
+}
+
+#dashboard_right_now li a.dashicons-editor-justify:before {
+    content: "\f214";
+}
+
+#dashboard_right_now li a.dashicons-editor-textcolor:before {
+    content: "\f215";
+}
+
+#dashboard_right_now li a.dashicons-editor-paste-word:before {
+    content: "\f216";
+}
+
+#dashboard_right_now li a.dashicons-editor-paste-text:before {
+    content: "\f217";
+}
+
+#dashboard_right_now li a.dashicons-editor-removeformatting:before {
+    content: "\f218";
+}
+
+#dashboard_right_now li a.dashicons-editor-video:before {
+    content: "\f219";
+}
+
+#dashboard_right_now li a.dashicons-editor-customchar:before {
+    content: "\f220";
+}
+
+#dashboard_right_now li a.dashicons-editor-outdent:before {
+    content: "\f221";
+}
+
+#dashboard_right_now li a.dashicons-editor-indent:before {
+    content: "\f222";
+}
+
+#dashboard_right_now li a.dashicons-editor-help:before {
+    content: "\f223";
+}
+
+#dashboard_right_now li a.dashicons-editor-strikethrough:before {
+    content: "\f224";
+}
+
+#dashboard_right_now li a.dashicons-editor-unlink:before {
+    content: "\f225";
+}
+
+#dashboard_right_now li a.dashicons-editor-rtl:before {
+    content: "\f320";
+}
+
+#dashboard_right_now li a.dashicons-editor-break:before {
+    content: "\f474";
+}
+
+#dashboard_right_now li a.dashicons-editor-code:before {
+    content: "\f475";
+}
+
+#dashboard_right_now li a.dashicons-editor-paragraph:before {
+    content: "\f476";
+}
+
+#dashboard_right_now li a.dashicons-editor-table:before {
+    content: "\f535";
+}
+
+/* Post Icons */
+
+#dashboard_right_now li a.dashicons-align-left:before {
+    content: "\f135";
+}
+
+#dashboard_right_now li a.dashicons-align-right:before {
+    content: "\f136";
+}
+
+#dashboard_right_now li a.dashicons-align-center:before {
+    content: "\f134";
+}
+
+#dashboard_right_now li a.dashicons-align-none:before {
+    content: "\f138";
+}
+
+#dashboard_right_now li a.dashicons-lock:before {
+    content: "\f160";
+}
+
+#dashboard_right_now li a.dashicons-unlock:before {
+    content: "\f528";
+}
+
+#dashboard_right_now li a.dashicons-calendar:before {
+    content: "\f145";
+}
+
+#dashboard_right_now li a.dashicons-calendar-alt:before {
+    content: "\f508";
+}
+
+#dashboard_right_now li a.dashicons-visibility:before {
+    content: "\f177";
+}
+
+#dashboard_right_now li a.dashicons-hidden:before {
+    content: "\f530";
+}
+
+#dashboard_right_now li a.dashicons-post-status:before {
+    content: "\f173";
+}
+
+#dashboard_right_now li a.dashicons-edit:before {
+    content: "\f464";
+}
+
+#dashboard_right_now li a.dashicons-post-trash:before,
+#dashboard_right_now li a.dashicons-trash:before {
+    content: "\f182";
+}
+
+#dashboard_right_now li a.dashicons-sticky:before {
+    content: "\f537";
+}
+
+
+/* Sorting */
+
+#dashboard_right_now li a.dashicons-external:before {
+    content: "\f504";
+}
+
+#dashboard_right_now li a.dashicons-arrow-up:before {
+    content: "\f142";
+}
+
+#dashboard_right_now li a.dashicons-arrow-down:before {
+    content: "\f140";
+}
+
+#dashboard_right_now li a.dashicons-arrow-left:before {
+    content: "\f141";
+}
+
+#dashboard_right_now li a.dashicons-arrow-right:before {
+    content: "\f139";
+}
+
+#dashboard_right_now li a.dashicons-arrow-up-alt:before {
+    content: "\f342";
+}
+
+#dashboard_right_now li a.dashicons-arrow-down-alt:before {
+    content: "\f346";
+}
+
+#dashboard_right_now li a.dashicons-arrow-left-alt:before {
+    content: "\f340";
+}
+
+#dashboard_right_now li a.dashicons-arrow-right-alt:before {
+    content: "\f344";
+}
+
+#dashboard_right_now li a.dashicons-arrow-up-alt2:before {
+    content: "\f343";
+}
+
+#dashboard_right_now li a.dashicons-arrow-down-alt2:before {
+    content: "\f347";
+}
+
+#dashboard_right_now li a.dashicons-arrow-left-alt2:before {
+    content: "\f341";
+}
+
+#dashboard_right_now li a.dashicons-arrow-right-alt2:before {
+    content: "\f345";
+}
+
+#dashboard_right_now li a.dashicons-leftright:before {
+    content: "\f229";
+}
+
+#dashboard_right_now li a.dashicons-sort:before {
+    content: "\f156";
+}
+
+#dashboard_right_now li a.dashicons-randomize:before {
+    content: "\f503";
+}
+
+#dashboard_right_now li a.dashicons-list-view:before {
+    content: "\f163";
+}
+
+#dashboard_right_now li a.dashicons-exerpt-view:before, /* Misspelled. Use #dashboard_right_now li a.dashicons-excerpt-view instead. */
+#dashboard_right_now li a.dashicons-excerpt-view:before {
+    content: "\f164";
+}
+
+#dashboard_right_now li a.dashicons-grid-view:before {
+    content: "\f509";
+}
+
+
+/* WPorg specific icons: Jobs, Profiles, WordCamps */
+
+#dashboard_right_now li a.dashicons-hammer:before {
+    content: "\f308";
+}
+
+#dashboard_right_now li a.dashicons-art:before {
+    content: "\f309";
+}
+
+#dashboard_right_now li a.dashicons-migrate:before {
+    content: "\f310";
+}
+
+#dashboard_right_now li a.dashicons-performance:before {
+    content: "\f311";
+}
+
+#dashboard_right_now li a.dashicons-universal-access:before {
+    content: "\f483";
+}
+
+#dashboard_right_now li a.dashicons-universal-access-alt:before {
+    content: "\f507";
+}
+
+#dashboard_right_now li a.dashicons-tickets:before {
+    content: "\f486";
+}
+
+#dashboard_right_now li a.dashicons-nametag:before {
+    content: "\f484";
+}
+
+#dashboard_right_now li a.dashicons-clipboard:before {
+    content: "\f481";
+}
+
+#dashboard_right_now li a.dashicons-heart:before {
+    content: "\f487";
+}
+
+#dashboard_right_now li a.dashicons-megaphone:before {
+    content: "\f488";
+}
+
+#dashboard_right_now li a.dashicons-schedule:before {
+    content: "\f489";
+}
+
+
+/* Internal/Products */
+
+#dashboard_right_now li a.dashicons-wordpress:before {
+    content: "\f120";
+}
+
+#dashboard_right_now li a.dashicons-wordpress-alt:before {
+    content: "\f324";
+}
+
+#dashboard_right_now li a.dashicons-pressthis:before {
+    content: "\f157";
+}
+
+#dashboard_right_now li a.dashicons-update:before {
+    content: "\f463";
+}
+
+#dashboard_right_now li a.dashicons-screenoptions:before {
+    content: "\f180";
+}
+
+#dashboard_right_now li a.dashicons-cart:before {
+    content: "\f174";
+}
+
+#dashboard_right_now li a.dashicons-feedback:before {
+    content: "\f175";
+}
+
+#dashboard_right_now li a.dashicons-cloud:before {
+    content: "\f176";
+}
+
+#dashboard_right_now li a.dashicons-translation:before {
+    content: "\f326";
+}
+
+
+/* Taxonomies */
+
+#dashboard_right_now li a.dashicons-tag:before {
+    content: "\f323";
+}
+
+#dashboard_right_now li a.dashicons-category:before {
+    content: "\f318";
+}
+
+
+/* Widget icons */
+
+#dashboard_right_now li a.dashicons-archive:before {
+    content: "\f480";
+}
+
+#dashboard_right_now li a.dashicons-tagcloud:before {
+    content: "\f479";
+}
+
+#dashboard_right_now li a.dashicons-text:before {
+    content: "\f478";
+}
+
+
+/* Media icons */
+
+#dashboard_right_now li a.dashicons-media-archive:before {
+    content: "\f501";
+}
+
+#dashboard_right_now li a.dashicons-media-audio:before {
+    content: "\f500";
+}
+
+#dashboard_right_now li a.dashicons-media-code:before {
+    content: "\f499";
+}
+
+#dashboard_right_now li a.dashicons-media-default:before {
+    content: "\f498";
+}
+
+#dashboard_right_now li a.dashicons-media-document:before {
+    content: "\f497";
+}
+
+#dashboard_right_now li a.dashicons-media-interactive:before {
+    content: "\f496";
+}
+
+#dashboard_right_now li a.dashicons-media-spreadsheet:before {
+    content: "\f495";
+}
+
+#dashboard_right_now li a.dashicons-media-text:before {
+    content: "\f491";
+}
+
+#dashboard_right_now li a.dashicons-media-video:before {
+    content: "\f490";
+}
+
+#dashboard_right_now li a.dashicons-playlist-audio:before {
+    content: "\f492";
+}
+
+#dashboard_right_now li a.dashicons-playlist-video:before {
+    content: "\f493";
+}
+
+#dashboard_right_now li a.dashicons-controls-play:before {
+    content: "\f522";
+}
+
+#dashboard_right_now li a.dashicons-controls-pause:before {
+    content: "\f523";
+}
+
+#dashboard_right_now li a.dashicons-controls-forward:before {
+    content: "\f519";
+}
+
+#dashboard_right_now li a.dashicons-controls-skipforward:before {
+    content: "\f517";
+}
+
+#dashboard_right_now li a.dashicons-controls-back:before {
+    content: "\f518";
+}
+
+#dashboard_right_now li a.dashicons-controls-skipback:before {
+    content: "\f516";
+}
+
+#dashboard_right_now li a.dashicons-controls-repeat:before {
+    content: "\f515";
+}
+
+#dashboard_right_now li a.dashicons-controls-volumeon:before {
+    content: "\f521";
+}
+
+#dashboard_right_now li a.dashicons-controls-volumeoff:before {
+    content: "\f520";
+}
+
+
+/* Alerts/Notifications/Flags */
+
+#dashboard_right_now li a.dashicons-yes:before {
+    content: "\f147";
+}
+
+#dashboard_right_now li a.dashicons-no:before {
+    content: "\f158";
+}
+
+#dashboard_right_now li a.dashicons-no-alt:before {
+    content: "\f335";
+}
+
+#dashboard_right_now li a.dashicons-plus:before {
+    content: "\f132";
+}
+
+#dashboard_right_now li a.dashicons-plus-alt:before {
+    content: "\f502";
+}
+
+#dashboard_right_now li a.dashicons-plus-alt2:before {
+    content: "\f543";
+}
+
+#dashboard_right_now li a.dashicons-minus:before {
+    content: "\f460";
+}
+
+#dashboard_right_now li a.dashicons-dismiss:before {
+    content: "\f153";
+}
+
+#dashboard_right_now li a.dashicons-marker:before {
+    content: "\f159";
+}
+
+#dashboard_right_now li a.dashicons-star-filled:before {
+    content: "\f155";
+}
+
+#dashboard_right_now li a.dashicons-star-half:before {
+    content: "\f459";
+}
+
+#dashboard_right_now li a.dashicons-star-empty:before {
+    content: "\f154";
+}
+
+#dashboard_right_now li a.dashicons-flag:before {
+    content: "\f227";
+}
+
+#dashboard_right_now li a.dashicons-info:before {
+    content: "\f348";
+}
+
+#dashboard_right_now li a.dashicons-warning:before {
+    content: "\f534";
+}
+
+
+/* Social Icons */
+
+#dashboard_right_now li a.dashicons-share:before {
+    content: "\f237";
+}
+
+#dashboard_right_now li a.dashicons-share1:before {
+    content: "\f237";
+}
+
+#dashboard_right_now li a.dashicons-share-alt:before {
+    content: "\f240";
+}
+
+#dashboard_right_now li a.dashicons-share-alt2:before {
+    content: "\f242";
+}
+
+#dashboard_right_now li a.dashicons-twitter:before {
+    content: "\f301";
+}
+
+#dashboard_right_now li a.dashicons-rss:before {
+    content: "\f303";
+}
+
+#dashboard_right_now li a.dashicons-email:before {
+    content: "\f465";
+}
+
+#dashboard_right_now li a.dashicons-email-alt:before {
+    content: "\f466";
+}
+
+#dashboard_right_now li a.dashicons-facebook:before {
+    content: "\f304";
+}
+
+#dashboard_right_now li a.dashicons-facebook-alt:before {
+    content: "\f305";
+}
+
+#dashboard_right_now li a.dashicons-networking:before {
+    content: "\f325";
+}
+
+#dashboard_right_now li a.dashicons-googleplus:before {
+    content: "\f462";
+}
+
+
+/* Misc/CPT */
+
+#dashboard_right_now li a.dashicons-location:before {
+    content: "\f230";
+}
+
+#dashboard_right_now li a.dashicons-location-alt:before {
+    content: "\f231";
+}
+
+#dashboard_right_now li a.dashicons-camera:before {
+    content: "\f306";
+}
+
+#dashboard_right_now li a.dashicons-images-alt:before {
+    content: "\f232";
+}
+
+#dashboard_right_now li a.dashicons-images-alt2:before {
+    content: "\f233";
+}
+
+#dashboard_right_now li a.dashicons-video-alt:before {
+    content: "\f234";
+}
+
+#dashboard_right_now li a.dashicons-video-alt2:before {
+    content: "\f235";
+}
+
+#dashboard_right_now li a.dashicons-video-alt3:before {
+    content: "\f236";
+}
+
+#dashboard_right_now li a.dashicons-vault:before {
+    content: "\f178";
+}
+
+#dashboard_right_now li a.dashicons-shield:before {
+    content: "\f332";
+}
+
+#dashboard_right_now li a.dashicons-shield-alt:before {
+    content: "\f334";
+}
+
+#dashboard_right_now li a.dashicons-sos:before {
+    content: "\f468";
+}
+
+#dashboard_right_now li a.dashicons-search:before {
+    content: "\f179";
+}
+
+#dashboard_right_now li a.dashicons-slides:before {
+    content: "\f181";
+}
+
+#dashboard_right_now li a.dashicons-analytics:before {
+    content: "\f183";
+}
+
+#dashboard_right_now li a.dashicons-chart-pie:before {
+    content: "\f184";
+}
+
+#dashboard_right_now li a.dashicons-chart-bar:before {
+    content: "\f185";
+}
+
+#dashboard_right_now li a.dashicons-chart-line:before {
+    content: "\f238";
+}
+
+#dashboard_right_now li a.dashicons-chart-area:before {
+    content: "\f239";
+}
+
+#dashboard_right_now li a.dashicons-groups:before {
+    content: "\f307";
+}
+
+#dashboard_right_now li a.dashicons-businessman:before {
+    content: "\f338";
+}
+
+#dashboard_right_now li a.dashicons-id:before {
+    content: "\f336";
+}
+
+#dashboard_right_now li a.dashicons-id-alt:before {
+    content: "\f337";
+}
+
+#dashboard_right_now li a.dashicons-products:before {
+    content: "\f312";
+}
+
+#dashboard_right_now li a.dashicons-awards:before {
+    content: "\f313";
+}
+
+#dashboard_right_now li a.dashicons-forms:before {
+    content: "\f314";
+}
+
+#dashboard_right_now li a.dashicons-testimonial:before {
+    content: "\f473";
+}
+
+#dashboard_right_now li a.dashicons-portfolio:before {
+    content: "\f322";
+}
+
+#dashboard_right_now li a.dashicons-book:before {
+    content: "\f330";
+}
+
+#dashboard_right_now li a.dashicons-book-alt:before {
+    content: "\f331";
+}
+
+#dashboard_right_now li a.dashicons-download:before {
+    content: "\f316";
+}
+
+#dashboard_right_now li a.dashicons-upload:before {
+    content: "\f317";
+}
+
+#dashboard_right_now li a.dashicons-backup:before {
+    content: "\f321";
+}
+
+#dashboard_right_now li a.dashicons-clock:before {
+    content: "\f469";
+}
+
+#dashboard_right_now li a.dashicons-lightbulb:before {
+    content: "\f339";
+}
+
+#dashboard_right_now li a.dashicons-microphone:before {
+    content: "\f482";
+}
+
+#dashboard_right_now li a.dashicons-desktop:before {
+    content: "\f472";
+}
+
+#dashboard_right_now li a.dashicons-tablet:before {
+    content: "\f471";
+}
+
+#dashboard_right_now li a.dashicons-smartphone:before {
+    content: "\f470";
+}
+
+#dashboard_right_now li a.dashicons-phone:before {
+    content: "\f525";
+}
+
+#dashboard_right_now li a.dashicons-smiley:before {
+    content: "\f328";
+}
+
+#dashboard_right_now li a.dashicons-index-card:before {
+    content: "\f510";
+}
+
+#dashboard_right_now li a.dashicons-carrot:before {
+    content: "\f511";
+}
+
+#dashboard_right_now li a.dashicons-building:before {
+    content: "\f512";
+}
+
+#dashboard_right_now li a.dashicons-store:before {
+    content: "\f513";
+}
+
+#dashboard_right_now li a.dashicons-album:before {
+    content: "\f514";
+}
+
+#dashboard_right_now li a.dashicons-palmtree:before {
+    content: "\f527";
+}
+
+#dashboard_right_now li a.dashicons-tickets-alt:before {
+    content: "\f524";
+}
+
+#dashboard_right_now li a.dashicons-money:before {
+    content: "\f526";
+}
+
+#dashboard_right_now li a.dashicons-thumbs-up:before {
+    content: "\f529";
+}
+
+#dashboard_right_now li a.dashicons-thumbs-down:before {
+    content: "\f542";
+}
+
+#dashboard_right_now li a.dashicons-layout:before {
+    content: "\f538";
+}
