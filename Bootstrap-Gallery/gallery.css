@@ -1,0 +1,39 @@
+.container-fluid{
+    background-color:black;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  .column img:hover {
+    filter: grayscale(1) brightness(0.5);
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .column img {
+      filter: grayscale(0) brightness(1);
+    }
+  }
