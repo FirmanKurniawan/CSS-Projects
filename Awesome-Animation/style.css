@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+:root {
+  --length: 6s; /*adjust to change speed */
+  --loop: infinite;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 3em;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+span {
+  display: block;
+}
+
+/* Background box */
+
+#box {
+  width: 200px;
+  height: 200px;
+  margin: 30vh auto;
+  border: 1px solid #333;
+  padding: 0 10px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  text-align: left;
+  animation: awe-box calc(var(--length) / 2) var(--loop);
+}
+
+@keyframes awe-box {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+    border-radius: 0%;
+    background: #fff;
+    color: #111;
+  }
+  35% {
+    border-radius: 50%;
+    transform: scale(2);
+    background: #111;
+    color: #fff;
+    box-shadow: 0 0 0 rgba(94, 245, 94, 1);
+  }
+  40% {
+    transform: scale(2);
+    background: #111;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(250, 144, 104, 1);
+  }
+  50% {
+    border-radius: 0%;
+    transform: scale(1);
+    background: #fff;
+    color: #111;
+    box-shadow: 0 0 65px rgba(94, 187, 245, 1);
+  }
+  56% {
+    border-radius: 0%;
+    transform: scale(1);
+  }
+  66% {
+    border-radius: 0%;
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(94, 187, 245, 1);
+  }
+  70% {
+    border-radius: 0%;
+    transform: scale(1);
+  }
+  100% {
+    border-radius: 0%;
+    transform: scale(1);
+  }
+}
+
+/* "CSS" Move */
+
+#first {
+  animation: css var(--length) var(--loop);
+}
+
+@keyframes css {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(65px, 0);
+  }
+  25% {
+    transform: translate(65px, 65px);
+  }
+  30% {
+    transform: translate(0, 65px);
+  }
+  70% {
+    transform: translate(0, 65px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* "Is" Move */
+
+#second {
+  animation: is var(--length) var(--loop);
+}
+
+@keyframes is {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(0, -65px);
+  }
+  30% {
+    transform: translate(0, -65px);
+  }
+  65% {
+    transform: translate(0, -65px);
+  }
+  68% {
+    transform: translate(105px, -65px);
+  }
+  73% {
+    transform: translate(105px, 0);
+  }
+  80% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* "Awesome" Slide */
+
+#third {
+  animation: awesome var(--length) var(--loop);
+}
+
+@keyframes awesome {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-110px);
+  }
+  50% {
+    transform: translateX(-110px);
+  }
+  60% {
+    transform: translateX(-110px);
+  }
+  70% {
+    transform: translateX(-110px);
+  }
+  85% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* "?" Fade in */
+
+#third::after {
+  content: "?";
+  display: block;
+  color: #fa7268; /* Pantones on fire */
+  width: 50px;
+  float: right;
+  margin-top: -67px;
+  margin-right: -140px;
+  animation: third-after var(--length) var(--loop);
+  opacity: 0;
+}
+
+@keyframes third-after {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Timer */
+
+body::before {
+  content: "";
+  background: #d02b30;
+  width: 2vw;
+  height: 0.2vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  animation: timing calc(var(--length) * 6) 1 linear;
+}
+
+@keyframes timing {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(100);
+  }
+}
+
+/* Fade to white */
+
+body::after {
+  content: "That's all folks";
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  text-align: center;
+  animation: fade-bg calc(var(--length) / 2) forwards;
+  animation-delay: calc(var(--length) * 6);
+  opacity: 0;
+  line-height: 100vh;
+}
+
+@keyframes fade-bg {
+  0% {
+    opacity: 0;
+    color: #fff;
+  }
+  30% {
+    opacity: 1;
+    color: #fff;
+    filter: blur(20px);
+  }
+  100% {
+    opacity: 1;
+    color: #222;
+    filter: blur(0);
+  }
+}
