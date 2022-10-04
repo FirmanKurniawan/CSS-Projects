@@ -1,0 +1,293 @@
+// Variabel
+$bg-dark:#0F172A;
+$white:#FFFFFF;
+$primary:#2ABFFF;
+$secondary:#FF5DD9;
+$paragrap:#94A3B8;
+$gray:#CBD5E1;
+$card-bg:#1E293B;
+$border-card:#334155;
+
+// Mixin
+@mixin btn() {
+    background: $card-bg;
+    border: 2px solid $border-card;
+    border-radius: 10px;
+    color: $white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-right: .5rem;
+
+    &:hover {
+        background: $primary;
+        color: $white;
+    }
+}
+
+// Global
+body::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: $paragrap;
+    border-radius: 20px;
+}
+
+body {
+    background: $bg-dark;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: url("../img/cursor/tunjuk_apple.png"), auto;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 15%;
+        height: 3px;
+        background: $primary;
+    }
+}
+
+.section-description {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: $paragrap;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    cursor: url("../img/cursor/unicorn_apple.png"), auto !important;
+}
+
+.container {
+    max-width: 576px;
+}
+
+// Navbar
+.navbar-brand {
+    font-weight: 900;
+    color: $white;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+.nav-link {
+    color: $white;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+.navbar-toggler {
+
+    &:focus,
+    &:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    i {
+        color: $white;
+        font-size: 2rem;
+    }
+}
+
+// Header
+header {
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    span {
+        color: $primary;
+    }
+
+    #emot {
+        animation: move 2.5s infinite;
+        display: inline-block;
+    }
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: $paragrap;
+    }
+
+    a {
+        color: $primary;
+        text-decoration: none;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+}
+
+#about {
+    img {
+        margin-bottom: 1rem;
+        border-radius: 50%;
+        border: 5px solid $border-card;
+
+        @media screen and (max-width: 576px) {
+            width: 150px;
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 150px;
+        }
+    }
+
+    .name {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .job {
+        font-size: 1.1rem;
+        font-weight: 300;
+        color: $paragrap;
+
+        @media screen and (max-width: 576px) {
+            margin-bottom: -20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: -20px;
+        }
+    }
+
+    .paragrap {
+        color: $gray;
+        font-size: 1.1rem;
+    }
+
+    span {
+        color: $primary;
+    }
+}
+
+#project {
+    .card {
+        margin-bottom: 1.5rem;
+        background: $card-bg;
+        border: 2px solid $border-card;
+        min-height: 50vh;
+        border-radius: 15px;
+        overflow: hidden;
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: $paragrap;
+        }
+
+        a {
+            font-size: 1.1rem;
+            color: $primary;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+}
+
+#contact {
+    p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: $paragrap;
+    }
+
+    a {
+        color: $primary;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        font-weight: 600;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+
+    .btn-sosmed {
+        @include btn;
+    }
+}
+
+footer {
+    p {
+        font-size: 1.1rem;
+        font-weight: 300;
+        color: $paragrap;
+    }
+
+    a {
+        color: $primary;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
