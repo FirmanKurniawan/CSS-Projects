@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+.container {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.upper {
+    position: relative;
+    top: -12%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.69);
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 1rem;
+    margin-inline: 30%;
+    border: .125rem solid white;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    transition: all 0.6s ease-in-out;
+}
+
+.upper span {
+    position: absolute;
+    top: .6rem;
+    left: .5rem;
+}
+
+#menuOff {
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: .6rem;
+    right: .5rem;
+    cursor: pointer;
+}
+
+.upper span img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.lower {
+    height: 60%;
+}
+
+.btn {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    background-color: red;
+    color: #fff;
+}
+
+@media screen and (max-width:650px) {
+    .upper {
+        text-align: center;
+        margin-top: 2rem;
+        margin-inline: 15%;
+        font-size: 1.2rem;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .upper {
+        text-align: center;
+        margin-top: 2rem;
+        margin-inline: 0;
+        margin-left: 2rem;
+        font-size: 1.2rem;
+        width: 80%;
+    }
+}
