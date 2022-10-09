@@ -1,0 +1,55 @@
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 3rem;
+    padding: 70px 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+.wish {
+    color: #02141a;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    animation: animate 3s linear infinite;  
+    padding: 1px;
+   
+    
+}
+
+@keyframes animate {
+     0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%{
+        color: #01181f;
+        text-shadow: none;
+     }
+
+     18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%{
+        
+         color: #fff;
+         text-shadow: 0px 0px 10px #03bcf4,
+         0 0 20px #03bcf4,
+         0 0 40px #03bcf4,
+         0 0 80px #03bcf4,
+         0 0 160px #03bcf4,
+         0 0 400px #03bcf4;
+     }
+
+
+
+}
+
+
+    
+
+
+
+
+@media (max-width: 548px) {
+  body {
+      font-size: 40px;
+      padding: 70px 0;
+  }
+
+}
+
+
+
