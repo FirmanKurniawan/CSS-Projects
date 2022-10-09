@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin-inline: 50%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 6rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 6rem;
+    width: 12rem;
+    transition: all 0.6s;
+}
+
+.logo img:hover {
+    transform: translateX(-50%);
+}
