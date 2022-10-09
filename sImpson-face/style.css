@@ -1,0 +1,152 @@
+body {
+    background: #1ca8e3
+  }
+  .container {
+    margin-top: 20vh
+  }
+  .text {
+    float:left;
+    padding-top: 25vh;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transforms: rotate(-135deg);
+    }
+  span {
+    font-size: 2em;
+  }
+  a {
+    font-size: 1em;
+    text-decoration: none
+  }
+  .homer {
+    width: 156px;
+    height: 304px;
+    margin-left: 50%;
+    position: relative;
+    padding-top: 10px;
+    
+    
+  }
+  
+  .square {
+    width: 100%;
+    height: 138px;
+    position: absolute;
+    margin-top: 100px;
+    background-image: linear-gradient( to right, #fed80b 50%, #ffcc01 50% );
+    z-index: -1;
+  }
+  
+  .circle-top {
+    width: 156px;
+    height: 141px;
+    border-radius: 156px;
+    background-image: linear-gradient( to right, #fed80b 50%, #ffcc01 50% );
+  }
+  
+  .circle-left {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    float: left;
+    position: absolute;
+    right: 92%;
+    top: 103px;
+    background-color: #ffdc06
+    
+  
+  }
+  .circle-right {
+    left: 92%;
+    top: 103px;
+    background-color: #ffcc01
+  }
+  
+  .circle-eye {
+    width: 81px;
+    height: 81px;
+    border-radius: 81px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 999
+  
+  }
+  
+  .eye-left {
+    top: 100px;
+    left: -10px
+  }
+  
+  .eye-right {
+    top: 100px;
+    right: -10px
+  }
+  
+  .circle-small {
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .small-left {
+    margin: 0 auto;
+    top: 48%;
+    animation: eye 2s infinite alternate
+  }
+  
+  .small-right {
+    top: 48%;
+    margin: 0 auto;
+    animation: eye 2s infinite alternate
+  }
+  
+  .circle-inf {
+    width: 51px;
+    height: 46px;
+    border-radius: 51px;
+    margin-top: 15px;
+    z-index: 998;
+    position: absolute;
+  }
+  
+  .inf-esq {
+    float: left;
+    left: -10%;
+    background-color: #f9da0d
+  }
+  .inf-dir {
+    float: right;
+    left: 75%;
+    background-color: #ffcb00
+  }
+  
+  .circle-center-center {
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    z-index: 1000;
+    border-radius: 100px;
+    bottom: 50px;
+    left: 18%;
+    background-image: linear-gradient( to right, #bf9958 50%, #af874a 50% );
+  }
+  
+  .circle-center {
+    width: 100%;
+    height: 121px;
+    border-radius: 100%;
+    margin-top: 30px;
+    background-color: #d3aa68;
+    z-index: 999;
+    position: absolute;
+    background-image: linear-gradient( to right, #d5ab63 50%, #cba159 50% );
+  }
+  
+  @keyframes eye {
+    0% {left: 0px}
+    100% {right: 20%}
+  }
+  
