@@ -15,3 +15,4 @@ hacktoberfest josgandos
 mau hacktober bang
 hacktober
 abay-hacktoberfest
+hacktoberfest2022
