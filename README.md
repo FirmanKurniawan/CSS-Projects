@@ -9,11 +9,9 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-hacktoberfest 2021
-Hacktoberfest
+hacktoberfest 2022
+Hacktoberfest uyee
 hacktoberfest josgandos
 mau hacktober bang
 hacktober
 abay-hacktoberfest
-hacktobervenom
-bang mau baju hacktober dong
