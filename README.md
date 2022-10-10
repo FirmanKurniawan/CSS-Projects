@@ -16,3 +16,5 @@ mau hacktober bang
 hacktober
 abay-hacktoberfest
 hacktoberfest2022
+hacktoberfest
+HACKTOBERFEST2022
