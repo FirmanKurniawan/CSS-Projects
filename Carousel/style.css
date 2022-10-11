@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  /* max-width: 1440px;
+  margin: auto; */
+  background-color: #e6fcf3;
+}
+.carousel {
+  width: 800px;
+  margin: 100px auto;
+  background-color: #087f5b;
+  padding: 32px 48px 32px 86px;
+  /* padding-->32px and padding-left-->86px
+  paading-right-->48px */
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 86px;
+  scroll-behavior: smooth;
+  /* transition: 0.8s; */
+}
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  color: #e6fcf5;
+  margin-left: 15px;
+}
+.author-name {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.job {
+  font-size: 12px;
+}
+.author-name,
+.job {
+  color: #c3fae8;
+}
+.author-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+.btn {
+  background-color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn--left {
+  left: -39px;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.btn--left:hover {
+  opacity: 1;
+}
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.btn--right:hover {
+  opacity: 1;
+}
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+  display: flex;
+  gap: 12px;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  /* border: none; */
+  border: 2px solid #087f5b;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot--fill {
+  background-color: #087f5b;
+}
+.quoteicon {
+  width: 10%;
+}
+
+.btn {
+  opacity: 0.8;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  /* font-family: "Bungee Spice", cursive; */
+  /* font-family: "Oswald", sans-serif; */
+
+  font-family: "Oswald", sans-serif;
+  color: #087f5b;
+}
