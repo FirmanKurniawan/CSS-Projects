@@ -18,3 +18,4 @@ abay-hacktoberfest
 hacktoberfest2022
 hacktoberfest
 HACKTOBERFEST2022
+hacktoberfest jos
