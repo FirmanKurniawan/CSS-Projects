@@ -1,0 +1,80 @@
+/*
+ *   Style~! Oh-ba-gangnan-style~!
+ */
+body {
+	background-color: #283747;
+}
+header {
+	padding: 15px 0;
+	background: #212F3C;
+	color: #D6DBDF;
+}
+.inner {
+	max-width: 400px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.timer {
+	display: inline-block;
+}
+.timer span {
+	color: #8c3a2b;
+	background-color: #f8f8f8;
+	padding: 2px 4px;
+	border: 0.1px solid #fff;
+	border-radius: 2px;
+}
+#main {
+	height: 100%;
+	min-height: 400px;
+	max-width: 600;
+	margin: 0 auto;
+	position: relative;
+	background-color: #283747;
+	border-top: none;
+	border-bottom: none;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.3);
+	box-shadow: 0 0 4px rgba(0,0,0,0.3);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#heart {
+	display: none;
+	max-width: 1000px;
+	margin-top: 30px;
+}
+#code {
+	font-family: Monaco, "Source Code Pro", Consolas, sans-serif;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 50px;
+}
+#code .comments {
+	color: #EBEDEF;
+}
+#code .keywords {
+	color: red;
+}
+footer {
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	
+	bottom: 0;
+}
+footer > a {
+	color: blueviolet;
+	text-decoration: none;
+}
+
+.iframe {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
