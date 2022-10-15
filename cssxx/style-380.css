@@ -1,0 +1,300 @@
+@media only screen and (max-width: 380px) {
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+input[type="search"]{
+	width: 200px;
+	height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+input[name="sea"]{
+	width: 27px;
+	height: 27px;
+	padding: 0px;
+	color: #fff;
+	background: #c04848;
+	border: 0px solid #fff;
+}
+input[name="sea"]:hover{
+	cursor: pointer;
+	background: #933939;
+}
+#wrap{
+	width: 380px;
+	height: auto;
+	margin: auto;
+}
+#nav{	
+width:380px;
+height: 40px;
+background: #2e2e2e;
+margin-left: auto;
+margin-right: auto;
+position: fixed;
+z-index: 99999;
+color: #fff;
+display: inline-block;
+}
+#nav  #nama{
+	font-family:"ether Cute Poison";
+	width: 150px;
+	height: 40px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	cursor: pointer;
+
+}
+#nav #login{
+	width: 200px;
+	height: 40px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 40px;
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#nav #menus ul{
+	list-style: none;
+	display: none;
+}
+#nav #menus ul li{
+	font-weight: 600;
+	width: 90px;
+	font-size: 15px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	line-height: 30px;
+	transition:all ease 0.3s;
+	float: left;
+	cursor: pointer;
+}
+#nav #menus ul li:hover{
+	background: #333;
+	transition:all ease 0.3s;
+}
+#head{
+	width: 380px;
+	height: 300px;
+	background: url(../img/head.png) no-repeat;
+	background-position:center center;
+	position: relative;
+	color: #fff;
+
+
+}
+#head #nama{
+	font-family:"ether Cute Poison";
+	width: 300px;
+	height: auto;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	right: auto;
+	font-size: 40px;
+	text-align: center;
+
+}
+#head #logo{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 100px;
+	left: 145px;
+	font-size: 20px;
+	text-align: center;
+	background-image: url('../img/logo alora.png') ;
+	background-position: center center;
+
+
+}
+#head p{
+
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 190px;
+	left: 85px;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+
+}
+#head #rd{
+	width: 130px;
+	height: 30px;
+	position: absolute;
+	bottom: 70px;
+	left: 360px;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid #fff;
+	line-height: 30px;
+	transition:all ease 0.5s;
+	display: none;
+
+}
+#head #rd:hover{
+	transition:all ease 0.5s;
+	background: rgba(255,255,255,.5);
+	cursor: pointer;
+}
+#bar {
+	width: 380px;
+	height: 40px;
+	background: #2e2e2e;
+	line-height: 40px;
+}
+#bar #search{
+	height: 40px;
+	width: 250px;
+	line-height: 40px;
+	float: right;
+	margin-right: 305px;
+	margin-top: 5px;
+	display: none;
+}
+#body{
+	width: 100%;
+	min-height: 700px;
+	position: relative;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#body #left{
+	float:left;
+	width: 250px;
+	min-height: 1015px;
+	height: auto;
+	background: #222;
+	color: #fff;
+	display: none;
+
+}
+#menu{
+	width: 100%;}
+#menu h2{
+	width: 330px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #c04848;
+	padding: 5px;
+	font-size: 14px;
+}
+#menu ul{
+	list-style: none;
+	display: inline-block;
+}
+#menu ul li{
+	width: 330px;
+	height: 30px;
+	background: #222;
+	padding: 5px;
+	line-height: 30px;
+	transition:all ease 0.5s;
+}
+#menu ul li:hover{
+	background: #333;
+	transition:all ease 0.5s;
+}
+#body #kanan{
+	float:left;
+	width: 380px;
+	padding: 15px;
+	height: auto;
+	padding-bottom: 100px;
+}
+#kanan #wide{
+	width: 330px;
+}
+#kanan #wid{
+	width: 330px;
+	height: 210px;
+	background: #998;
+	transition:all ease 0.5s;
+	transform-style:preserve-3d;
+}
+#wide:hover #wid{
+	transform:rotateY(0deg);
+	cursor: pointer;
+}
+#kanan,#depan,#belakang{
+	width: 330px;
+	height: 210px;
+}
+
+#depan,#belakang{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	backface-visibility:hidden;
+
+}
+#depan{
+	z-index: 1;}
+
+#wid #depan #h{
+	width: 100%;
+	height: 35px;
+	font-weight: bolder;
+	color: #fff;
+	background: #c04848;
+	line-height: 35px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+#wid #depan #g{
+	width: 100%;
+	height: 175px;
+	background: #999;
+	opacity: 0.7;
+	background-size:330px 210px;
+}
+#wid #depan  #s {
+	width: 150px;
+	height: 35px;
+	color: #fff;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0,0,0,.5);
+	text-align: center;
+	line-height: 35px;
+}
+#bawah{
+	width:790px;
+	height: 200px; 
+	background: #333;
+	padding: 15px;
+	display: none;
+}
+#bawah #mar{
+	width: 330px;
+	height: 200px;
+	background: #4e4848;
+	float: left;
+	margin-right: 15px;
+}
+#pbwah{
+	width:338px;;
+	height: 30px; 
+	background: #111;
+	padding:5px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 12px;
+}}

@@ -1,0 +1,453 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+body{
+	color: #222;
+}
+input[name="s"]{
+	width: 200px;
+	height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+input[no="sea"]{
+	width: 27px;
+	height: 27px;
+	padding: 0px;
+	color: #fff;
+	background: #c04848;
+	border: 0px solid #fff;
+}
+input[no="sea"]:hover{
+	cursor: pointer;
+	background: #933939;
+}
+#iklan input[type="text"],#iklan select, input[type="email"],#iklan input[type="password"]{
+	width: 500px;
+	height: 40px;
+	padding-left: 15px;
+	border-radius:5px;
+	border: 1px solid rgba(0,0,255,.2);
+	transition:all linear 0.2s;
+	color: rgba(0,0,0,.8);
+	font-size: 14px;
+}
+#iklan input:focus{
+
+	transition:all linear 0.2s;
+
+	box-shadow: rgba(0,0,255,.3) 0px 0px 8px;
+
+
+}
+#wrap{
+	width: 1600px;
+	height: auto;
+	margin: auto;
+}
+#nav{	
+width:1600px;
+height: 40px;
+background: #2e2e2e;
+margin-left: auto;
+margin-right: auto;
+position: fixed;
+z-index: 99999;
+color: #fff;
+display: inline-block;
+}
+#nav  #nama{
+	font-family:"ether Cute Poison";
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	cursor: pointer;
+
+}
+#nav #login{
+	width: 200px;
+	height: 40px;
+	margin-right: 10px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+}
+#nav .mar{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#nav #menus ul{
+	list-style: none;
+	display: inline-block;
+}
+#nav #menus ul li{
+	font-weight: 600;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	line-height: 30px;
+	transition:all ease 0.3s;
+	float: left;
+	cursor: pointer;
+}
+#nav #menus ul li:hover{
+	background: #333;
+	transition:all ease 0.3s;
+}
+#head{
+	width: 1600px;
+	height: 500px;
+	background: url(../img/head.png) no-repeat;
+	background-position:center center;
+	background-size: 100% 100%;
+	position: relative;
+	color: #fff;
+
+
+}
+#head #nama{
+	font-family:"ether Cute Poison";
+	width: 320px;
+	height: auto;
+	position: absolute;
+	top: 50px;
+	left: 660px;
+	right: auto;
+	font-size: 72px;
+	text-align: center;
+	-webkit-width:310px;
+
+}
+#head #logo{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 130px;
+	left: 765px;
+	font-size: 20px;
+	text-align: center;
+	background-image: url('../img/logo alora.png') ;
+	background-position: center center;
+
+
+}
+#head p{
+
+	width: 400px;
+	height: 80px;
+	position: absolute;
+	top: 230px;
+	left: 605px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #fff;
+
+}
+#head #rd{
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	bottom: 50px;
+	left: 710px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #fff;
+	line-height: 50px;
+	transition:all ease 0.5s;
+
+}
+#head #rd:hover{
+	transition:all ease 0.5s;
+	background: rgba(255,255,255,.5);
+	cursor: pointer;
+}
+#bar {
+	width: 1600px;
+	height: 40px;
+	background: #2e2e2e;
+	line-height: 40px;
+}
+#bar #search{
+	height: 40px;
+	width: 250px;
+	line-height: 40px;
+	float: right;
+	margin-right: 85px;
+	margin-top: 0px;
+}
+#body{
+	width: 100%;
+	min-height: 700px;
+	position: relative;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#body #left{
+	float:left;
+	width: 250px;
+	min-height: 1015px;
+	height: auto;
+	background: #222;
+	color: #fff;
+
+}
+#menu{
+	width: 100%;}
+#menu h2{
+	width: 240px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #c04848;
+	padding: 5px;
+	font-size: 14px;
+}
+#menu ul{
+	list-style: none;
+	display: inline-block;
+}
+#menu ul li{
+	width: 240px;
+	height: 30px;
+	background: #222;
+	padding: 5px;
+	line-height: 30px;
+	transition:all ease 0.5s;
+}
+#menu ul li:hover{
+	background: #333;
+	transition:all ease 0.5s;
+}
+#body #kanan{
+	float:left;
+	width: 1280px;
+	padding: 15px;
+	height: auto;
+	padding-bottom: 100px;
+}
+#kanan h2{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	background: #c04848;
+}
+#kanan #wide{
+	width:300px;
+	height: 280px;
+	border: 1px solid #000;
+
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
+
+	position: relative;
+	box-shadow: 0px 0px 8px rgba(0,0,0,.5);
+}
+#kanan #wid{
+	width: 300px;
+	height: 280px;
+	background: #998;
+	transition:all ease 0.5s;
+	transform-style:preserve-3d;
+}
+#wide:hover #wid{
+	
+	cursor: pointer;
+}
+#kanan,#depan,#belakang{
+	width: 300px;
+	height: 280px;
+}
+
+#depan,#belakang{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	backface-visibility:hidden;
+
+}
+#depan{
+	z-index: 1;}
+#belakang{
+	z-index: 2;
+	
+	background: #ddd;	
+}	
+#belakang #h{
+	width: 100%;
+	height: 35px;
+	font-weight: bolder;
+	color: #fff;
+	background: #c04848;
+	line-height: 35px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+#belakang #g{
+
+	width: 100px;
+	height: 100px;
+	opacity: 0.7;
+	border-radius: 100px;
+	border: 5px solid #fff;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+	position: absolute;
+	left: 95px;
+	top: 50px;
+	background-size:100px 100px;
+
+}
+#belakang #d{
+	width: 80%;
+	text-align: center;
+	height: auto;
+	font-size: 11px;
+	position: absolute;
+	left: 30px;
+	bottom:40px;
+	color: #555;
+	line-height: 15px;
+
+}
+#belakang #rd{
+	width: 100%;
+	height:30px;
+	background: #c04848;
+	position: absolute;
+	bottom:0px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	font-weight: bolder;
+	color: #fff;
+
+}
+
+
+#wid #depan #h{
+	width: 100%;
+	height: 35px;
+	font-weight: bolder;
+	color: #fff;
+	background: #c04848;
+	line-height: 35px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+#wid #depan #g{
+	width: 100%;
+	height: 245px;
+	background: #999;
+	opacity: 0.7;
+	background-size:300px 280px;
+}
+#wid #depan  #s {
+	width: 150px;
+	height: 35px;
+	color: #fff;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0,0,0,.5);
+	text-align: center;
+	line-height: 35px;
+}
+#bawah{
+	width:1580px;
+	min-height: 260px; 
+	height: auto;
+	background: #333;
+	padding: 15px;
+}
+#bawah #mar{
+	width: 500px;
+	background: #4e4848;
+	float: left;
+	margin-right: 15px;
+	min-height: 280px;
+	height: auto;
+}
+#mar #h2{
+	width: 100%;
+	height: 30px;
+	background: #c04848;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+#mar #isi{
+	width: 93%;
+	height: auto;
+	padding: 15px;
+	text-align: justify;
+	color: #bee;
+}
+#pbwah{
+	width:1600px;;
+	height: 30px; 
+	background: #111;
+	padding:5px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+
+}
+#iklans tr th{
+	padding: 5px;
+	color: #eee;
+	text-align: center;
+
+}
+#iklans tr td{
+	padding: 5px;
+	color: #eee;
+	text-align: center;
+	color: #333;
+
+}
+
+input[value="kirim"]{
+	width: 200px;
+	height: 50px;
+	border:solid 0px transparent;
+	background: #c04848;
+	color: #fff;
+	font-weight: 900;
+	cursor: pointer;
+	transition:all ease 0.2s;
+}
+input[value="kirim"]:hover{
+	background: #c00048;
+	transition:all ease 0.2s;
+
+
+}
