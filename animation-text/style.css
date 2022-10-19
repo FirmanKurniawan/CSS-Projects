@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(18, 18, 18);
+  background: linear-gradient(300deg, rgba(18, 18, 18, 1) 35%, rgba(48, 48, 48, 1) 100%);
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+  background: url('img/abc.png');
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text 7.5s linear infinite;
+}
+
+@keyframes text {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
