@@ -1,0 +1,72 @@
+* {
+  margin-top: 500px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  animation: back 15s linear infinite;
+  overflow: hidden;
+}
+
+.eclipse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -500%);
+  width: 150px;
+  height: 150px;
+}
+
+.eclipse .matahari {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffad00;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 4px #ffad00;
+  margin-top: 150px;
+  margin-right: 150px;
+  animation: sun 15s ease-in-out infinite;
+}
+
+.eclipse .bulan {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 50%;
+  margin-top: 150px;
+  margin-left: 0px;
+  animation: movebulan 15s linear infinite;
+}
+
+@keyframes movebulan {
+  0% {
+    transform: translateX(200px);
+    background: #fff;
+  }
+  50% {
+    transform: translateX(0px);
+    background: #000;
+  }
+  100% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes back {
+  0%,
+  100% {
+    background: #fff;
+  }
+  50% {
+    background: rgb(0, 0, 0);
+  }
+}
+
+@keyframes matahari {
+  50% {
+    box-shadow: 0px 0px 10px 4px #ffad00;
+  }
+}
